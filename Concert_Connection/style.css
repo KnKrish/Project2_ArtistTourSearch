@@ -1,0 +1,394 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+
+/* Navigation */
+
+.logo {
+  font-weight: 900;
+  font-size: 1.5rem;
+  width:40%
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+/* Main Section */
+
+#main {
+  background: url("./image/background.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+.header-main {
+  margin-top: 80px;
+}
+
+.header-info {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.btn-outline-light {
+  margin-left: 20px;
+}
+
+.btn-space {
+  margin-top: 20px;
+}
+
+.info-width {
+  width: 60%;
+}
+
+/* Overview */
+
+.info-width {
+  width: 60%;
+  font-size: 1.3rem;
+}
+
+.overview-icon {
+  font-size: 3rem;
+  color: #5a34fc;
+}
+
+.overview-row {
+  margin-top: 5rem;
+}
+
+.overview-header {
+  font-weight: 900;
+}
+
+.overview-icon,
+.overview-header,
+.info-width {
+  padding: 1rem 0;
+}
+
+/* Testimonial */
+
+#testimonials {
+  background-color: #5a34fc;
+  margin-top: 100px;
+  padding: 100px 0;
+}
+
+.section-title {
+  font-size: 3rem;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-item h3 {
+  font-size: 2.5rem;
+}
+
+/* Pricing */
+
+#pricing {
+  margin-top: 80px;
+  padding: 80px 0;
+}
+
+.pricing-title {
+  margin-bottom: 80px;
+}
+
+.card {
+  box-shadow: 0px 3px 63px -12px rgba(0, 0, 0, 0.75);
+  border-color: #5a34fc;
+  border-radius: 8px;
+}
+
+.card-body {
+  padding: 3% 0%;
+}
+
+.pricing-text {
+  color: #5a34fc;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 5% 0%;
+}
+
+.btn-block {
+  font-size: 1.5rem;
+}
+
+/* Call to Action */
+
+#cta {
+  background-color: #5a34fc;
+  padding: 7% 15%;
+}
+
+.cta-text {
+  font-weight: bold;
+  font-size: 3rem;
+  color: #fff;
+}
+
+/* Footer */
+
+#footer {
+  height: 200px;
+}
+
+.footer-icon {
+  font-size: 2rem;
+  color: #5a34fc;
+  padding: 5% 3%;
+}
+
+
+  .searchButton {
+    background-color: rgb(27, 3, 3);
+    width: 25%;
+    height: 100%;
+    color: black;
+    font-size: 100%;
+     /* Green */
+  }
+  .searchButton:hover {
+      background-color: rgb(22, 88, 25);
+      color: rgb(255, 255, 255);
+  }
+  
+  /*Search form*/
+  .textBox {
+    border: 2px solid lightgray;
+    width: 70%;
+    height: 10%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+
+
+
+
+/* Search Results*/
+
+.result-section {
+  margin-top: 100px;
+}
+
+.js-search-results ul {
+  margin: 0 auto;
+  width: 80%;
+  list-style-type: none;
+}
+
+.js-search-results li {
+  margin: 20px auto;
+  width: 70%;
+  height: 200px;
+  text-align: left;
+  padding: 25px;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  color: black;
+  box-shadow: 5px 5px 5px #888888;
+  background-color: white;
+}
+
+.js-search-results li div.event-display-name,
+.js-search-results li div.event-details-city,
+.js-search-results li div.event-details-button-wrapper,
+.js-search-results li div.event-details-start-date,
+.js-search-results li div.event-display-required-image {
+  display: block;
+  width: 90%;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+.js-search-results li div.event-display-name {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.js-search-results li div.event-display-details {
+  display: inline-block;
+  width: 70%;
+}
+
+.js-search-results li div.event-details-start-date {
+  display: none;
+}
+
+.js-search-results li div.event-details-venue {
+  display: inline-block;
+  width: 30%;
+  float: right;
+}
+
+.event-details-button {
+  background-color: #D99351;
+  margin-top: 25px;
+  margin-left: 5px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.event-details-button:hover {
+  background-color: #FFC287;
+}
+
+.js-search-results li div.event-display-required-image {}
+
+.song-kick {
+  width: 30px;
+  margin-top: 20px;
+}
+
+.resultsFound {
+  color: #c0392b;
+  text-transform: uppercase;
+}
+
+
+/*Media queries for 3 screen sizes*/
+
+@media only screen and (max-width: 800px) {
+  nav a img {
+      left: 44%;
+  }
+  .overallMessage {
+      width: 60%;
+  }
+  section.search-form {
+      margin-top: 200px;
+  }
+  .js-search-results li {
+      width: 70%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  body {
+      font-size: 12px;
+  }
+  nav img {
+      margin-left: auto;
+      margin-right: auto;
+      width: 60%;
+  }
+  nav a img {
+      left: 42%;
+  }
+  nav {
+      position: static;
+  }
+  .overallMessage {
+      width: 70%;
+  }
+  h1 {
+      font-size: 3rem;
+  }
+  nav div.appName {
+      display: inline-block;
+      width: 70%;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  section.search-form {
+      margin-top: 300px;
+  }
+  .js-search-results li {
+      width: 90%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+      font-size: 14px;
+  }
+  nav {
+      position: static;
+  }
+  nav a img {
+      left: 30%;
+  }
+  .overallMessage {
+      width: 80%;
+  }
+  section.search-form {
+      margin-top: 50px;
+  }
+  .search-bar {
+      display: inline-block;
+      width: 100%;
+  }
+  nav a.main-logo {
+      display: block;
+      width: 50%;
+      margin: auto;
+  }
+  nav div.appName {
+      display: block;
+      width: 100%;
+  }
+  .js-search-results li div.event-display-name {
+      font-size: 0.9rem;
+  }
+  .js-search-results li {
+      width: 100%;
+  }
+}
+
+/* remove default margin and padding from body */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* set map, body, and html to 100% of the screen size */
+#map,
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+/* D3 attributes */
+.tooltip {
+  position: absolute;
+  width: 90px;
+  height: 70px;
+  padding: 10px;
+  font: 12px sans-serif;
+  text-align: center;
+  color: white;
+  background: blue;
+  border: 0;
+  border-radius: 10px;
+}
+
+html,
+body{
+  padding:0;
+  margin: 0;
+}
+
+.bar{
+  fill:orange;
+}
+
+.bar:hover {
+fill:green
+
+}
